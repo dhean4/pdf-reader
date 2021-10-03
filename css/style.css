@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top-bar{
+    background: #333;
+    color:#fff;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    background:skyblue;
+    color:#fff;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding:0.7rem, 2rem;
+}
+.btn:hover{
+    opacity:0.9;
+}
+.page-info{
+    margin-left:1rem;
+}
+.error{
+    background:beige;
+    color:#fff;
+    padding:1rem;
+}
